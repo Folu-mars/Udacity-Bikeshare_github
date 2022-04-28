@@ -3,11 +3,11 @@ In this project, I made use of Python to explore data related to bike share syst
 
 Divvy is a bicycle sharing system in the City of Chicago and two adjacent suburbs (image: [Wikipedia](https://en.wikipedia.org/wiki/Divvy))
 
-## What Software Do I Need?
-To complete this project, the following software requirements apply:
-* You should have Python 3, NumPy, and pandas installed using Anaconda navigation.
+## What Software Do I Use?
+To complete this project, i used the following softwares:
+* I had Python 3, NumPy, and pandas installed using Anaconda navigation.
 * A text editor,  [Atom](https://atom.io/) was used.
-* A terminal application (Terminal on Mac and Linux or Cygwin on Windows).
+* A terminal application (Terminal on Mac).
 
 # Project Details: Bike Share Data
 Over the past decade, bicycle-sharing systems have been growing in number and popularity in cities across the world. Bicycle-sharing systems allow users to rent bicycles on a very short-term basis for a price. This allows people to borrow a bike from point A and return it at point B, though they can also return it to the same location if they'd like to just go for a ride. Regardless, each bike can serve several users per day.
@@ -61,4 +61,4 @@ I learned about bike share use in Chicago, New York City, and Washington by comp
 * https://stackoverflow.com/questions/2847386/python-string-and-integer-concatenation
 * https://www.w3schools.com/python/python_datetime.asp
 
-* This project was written by Folusho for Udacity's Programming for Data Science with Python Nanodegree
+* This project was written by Folusho for Udacity's Programming for Data Science with Python Nanodegree.
