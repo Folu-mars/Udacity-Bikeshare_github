@@ -56,7 +56,7 @@ I learned about bike share use in Chicago, New York City, and Washington by comp
     * And run
     ```python bikeshare_2.py```
 
-# Extra Links that halped me solve the project are:
+# Extra Links that helped me solve the project are:
 * https://www.python-course.eu/python3_input.php
 * https://stackoverflow.com/questions/2847386/python-string-and-integer-concatenation
 * https://www.w3schools.com/python/python_datetime.asp
