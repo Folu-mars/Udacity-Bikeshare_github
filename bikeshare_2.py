@@ -28,6 +28,7 @@ def get_filters():
         city = input().lower()
 
         if city not in CITY_DATA.keys():
+            
             print("\nPlease check your City input and try again (Ps. Grammatical errors)")
 #print("\nRestarting...")
             time.sleep(2.0)
@@ -161,7 +162,7 @@ def trip_duration_stats(df):
     print('\nCalculating Trip Duration...\n')
     start_time = time.time()
 
-    # Display total travel time
+    # Display the total travel time
     total_duration = df['Trip Duration'].sum()
     minute, second = divmod(total_duration, 60)
     hour, minute = divmod(minute, 60)
@@ -188,7 +189,7 @@ def user_stats(df):
     print('\nCalculating User Stats...\n')
     start_time = time.time()
 
-    # Display counts of user types
+    # Display the counts of user types
     user_type = df['User Type'].value_counts()
     print("Count of user types are shown below:\n{}".format(user_type))
 
