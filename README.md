@@ -1,12 +1,12 @@
 # Project Overview: Overview
-In this project, I made use of Python to explore data related to bike share systems for three major cities in the United States - Chicago, New York City, and Washington. I have written code to import the data and answer interesting questions about it by computing descriptive statistics. I have also written a script that takes in raw input to create an interactive experience in the terminal to present these statistics.
+In this project, I made use of Python to explore data related to bike share systems for three major cities in the United States - Chicago, New York, and Washington. I have written code to import the data and answer questions about it by computing descriptive statistics. I have also written a script that takes in raw input to create an interactive session for the user in the terminal.
 
 Divvy is a bicycle sharing system in the City of Chicago and two adjacent suburbs (image: [Wikipedia](https://en.wikipedia.org/wiki/Divvy))
 
 ## What Software Do I Need?
 To complete this project, the following software requirements apply:
-* You should have Python 3, NumPy, and pandas installed using Anaconda
-* A text editor, like [Sublime](https://www.sublimetext.com/) or [Atom](https://atom.io/).
+* You should have Python 3, NumPy, and pandas installed using Anaconda navigation.
+* A text editor,  [Atom](https://atom.io/) was used.
 * A terminal application (Terminal on Mac and Linux or Cygwin on Windows).
 
 # Project Details: Bike Share Data
@@ -14,7 +14,7 @@ Over the past decade, bicycle-sharing systems have been growing in number and po
 
 Thanks to the rise in information technologies, it is easy for a user of the system to access a dock within the system to unlock or return bicycles. These technologies also provide a wealth of data that can be used to explore how these bike-sharing systems are used.
 
-In this project, I will use data provided by [Motivate](https://www.motivateco.com/), a bike share system provider for many major cities in the United States, to uncover bike share usage patterns. I will compare the system usage between three large cities: Chicago, New York City, and Washington, DC.
+In this project, I used data provided by [Motivate](https://www.motivateco.com/), a bike share system provider for many major cities in the United States, to uncover the bike share usage patterns. I compared the system usage between three cities: Chicago, New York City, and Washington DC.
 
 ## The Datasets
 * Randomly selected data for the first six months of 2017 are provided for all three cities. All three of the data files contain the same core six (6) columns:
@@ -27,10 +27,10 @@ In this project, I will use data provided by [Motivate](https://www.motivateco.c
 * The Chicago and New York City files also have the following two columns:
     * Gender
     * Birth Year
-* The original files are much larger and messier, and you don't need to download them, but they can be accessed here if you'd like to see them ([Chicago](https://www.divvybikes.com/system-data), [New York City](https://www.citibikenyc.com/system-data), [Washington](https://www.capitalbikeshare.com/system-data)). These files had more columns and they differed in format in many cases. Some [data wrangling](https://en.wikipedia.org/wiki/Data_wrangling) has been performed to condense these files to the above core six columns.
+* The original files are much larger and messier, and you don't need to download them, but they can be accessed here if you'd like to see them ([Chicago](https://www.divvybikes.com/system-data), [New York City](https://www.citibikenyc.com/system-data), [Washington](https://www.capitalbikeshare.com/system-data)). 
 
 ## Statistics Computed
-I learned about bike share use in Chicago, New York City, and Washington by computing a variety of descriptive statistics. In this project, I have written code to provide the following information:
+I learned about bike share use in Chicago, New York City, and Washington by computing a variety of descriptive statistics. In this project, I wrote code to provide the following information:
 * Popular times of travel (i.e., occurs most often in the start time)
     * most common month
     * most common day of week
@@ -51,13 +51,14 @@ I learned about bike share use in Chicago, New York City, and Washington by comp
 * Clone the project
 * Prerequisite
     * You must have installed python and libraries like numpy and pandas.
-* Run the project
+* Complete the TO-DO lists
     * Open the terminal
     * And run
     ```python bikeshare_2.py```
 
 # Extra Links that halped me solve the project are:
 * https://www.python-course.eu/python3_input.php
-* https://stackoverflow.com/questions/23294658/asking-the-user-for-input-until-they-give-a-valid-response
 * https://stackoverflow.com/questions/2847386/python-string-and-integer-concatenation
-* https://stackoverflow.com/questions/19377969/combine-two-columns-of-text-in-dataframe-in-pandas-python
+* https://www.w3schools.com/python/python_datetime.asp
+
+* This project was written by Folusho for Udacity's Programming for Data Science with Python Nanodegree
